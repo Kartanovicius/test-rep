@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "typedocOptions": {
+    "name": "Pricefx Interceptor API",
+    "disableSources": true,
+    "visibilityFilters": {},
+    "readme": "interceptors-docs.md",
+    "entryPoints": ["docs/interceptorContextMethodTypes.ts"],
+    "cacheBust": true,
+    "out": "out"
+  }
+}
